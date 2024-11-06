@@ -10,7 +10,7 @@ arch=(x86_64)
 url="http://www.frozen-bubble.org"
 license=(GPL2)
 depends=(perl-sdl perl-ipc-system-simple perl-compress-bzip2 perl-file-which)
-makedepends=(perl-file-slurp perl-locale-maketext-lexicon perl-module-build)
+makedepends=(perl-file-slurp perl-locale-maketext-lexicon perl-module-build cpanminus)
 options=('!emptydirs')
 source=(http://archive.ubuntu.com/ubuntu/pool/universe/f/frozen-bubble/frozen-bubble_${pkgver}.orig.tar.gz
         fix-buffer-size-when-formatting-current-date.patch
