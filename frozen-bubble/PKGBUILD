@@ -36,6 +36,7 @@ build() {
   cd "$srcdir/Games-FrozenBubble-$pkgver"
   unset CFLAGS
   # install module in vendor directories
+  cpanm SDL::Config
   perl Build.PL installdirs=vendor
   perl Build
 }
